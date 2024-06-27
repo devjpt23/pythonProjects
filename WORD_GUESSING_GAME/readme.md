@@ -1,0 +1,3 @@
+This folder consits of word guessing game, we are given the length of the word in form of dashes and so we need to input range of alphabets to guess the possible letter of the word.
+
+This folder also contains a user login page that works on the similar principle as the letter_guessing.py, therefore this is a practice file that i worked on when i was making the letter_guessing.py so as to master the art.
