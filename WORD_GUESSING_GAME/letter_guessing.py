@@ -3,7 +3,7 @@ randomWords = ['word','camel','water','dev','cartillage']
 computerChoice = random.choice(randomWords)
 
 playerGuessedWord = ''
-tries = 12
+tries = 12 # change the number to alter the number of tries to guess word
 name = input("Player enter your name:> ")
 print(f"Start the guessing game, {name}!")
 while(tries > 0):
@@ -19,7 +19,7 @@ while(tries > 0):
         print(f"You've won {name}. Let's gooo!!!")
         break
     playerGuessLetter = input("Enter a letter: > ")
-    playerGuessedWord += playerGuessLetter
+    playerGuessedWord += playerGuessLetter # this adds the correct letter into the empty variable (step by step)
 
     if(playerGuessLetter not in computerChoice):
         print("wrong letter!")
